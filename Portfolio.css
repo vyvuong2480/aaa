@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#header{
+	background-image: url(header.png);
+	background-size: 1600px;
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 500px;
+	color: white;
+	padding: 300px 0px 0px 0px;
+}
+#header h1{
+	font-size: 95px;
+}
+#header i{
+	padding: 10px;
+}
+#header i:hover{
+	color:#F0B725;
+}
+#scroll{
+	font-size: 40px;
+	padding-top: 100px;
+}
+.slide-bottom {
+	-webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+}
+#intro{
+	padding: 50px;
+	height: 530px;
+}
+#pfp{
+	float: left;
+	padding: 10px 50px 10px 180px;
+}
+#about{
+	padding: 200px 30px 0px 50px;
+}
+#about h2{
+	color:#303268;
+	padding: 20px;
+	font-size: 30px;
+}
+#profession{
+	background: #303268;
+	height: 300px;
+	color: white;
+}
+#profession h2{
+	padding: 15px;
+}
+#artist{
+	padding: 50px 80px 50px 350px;
+	float: left;
+	text-align: center;
+}
+#artist i{
+	font-size: 35px;
+	padding: 20px;
+}
+#character{
+	padding: 50px 80px 50px 50px;
+	float: left;
+	text-align: center;
+}
+#character i{
+	font-size: 35px;
+	padding: 20px;
+}
+#graphic{
+	padding: 50px 0px 50px 50px;
+	float: left;
+	text-align: center;
+}
+#graphic i{
+	font-size: 35px;
+	padding: 20px;
+}
+#movetop{
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 99;
+	height: 45px;
+	width: 45px;
+	background-color: white;
+}
